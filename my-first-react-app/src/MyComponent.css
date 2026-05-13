@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+.my-component {
+  background-color: #ffe4f0;
+  padding: 30px;
+  border: 2px solid #f7a8c4;
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  box-shadow: 0 4px 15px rgba(247, 168, 196, 0.4);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.my-component h1 {
+  color: #d63384;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.my-component p {
+  color: #c2698f;
+  font-size: 1.1rem;
+}
