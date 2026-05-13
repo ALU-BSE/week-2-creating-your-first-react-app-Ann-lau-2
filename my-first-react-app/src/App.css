@@ -5,3 +5,34 @@
   min-height: 100vh;
   background-color: #fff0f7;
 }
+
+.counter-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.counter-container button {
+  width: 45px;
+  height: 45px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  border: none;
+  background-color: #f7a8c4;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.counter-container button:hover {
+  background-color: #d63384;
+}
+
+.counter-container span {
+  font-size: 2rem;
+  color: #d63384;
+  font-family: 'Quicksand', sans-serif;
+  min-width: 40px;
+  text-align: center;
+}
